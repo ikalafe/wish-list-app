@@ -3,6 +3,7 @@ package dehghan.danial.mywishlistapp.repository
 import dehghan.danial.mywishlistapp.data.Wish
 import dehghan.danial.mywishlistapp.data.WishDao
 import kotlinx.coroutines.flow.Flow
+import kotlin.properties.Delegates
 
 class WishRepository(private val wishDao: WishDao) {
 
